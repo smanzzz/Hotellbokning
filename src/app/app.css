@@ -1,0 +1,126 @@
+
+.form-label {
+    font-size: 1.2rem; 
+    font-weight: 600;  
+    margin-bottom: 8px;
+    display: block;    
+}
+
+.group-label {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;       
+}
+
+.row.g-3 .date-input {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 400px;
+    padding: 0.6rem;
+    border: 2px solid rgb(133, 133, 255);
+
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.radio-options{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    
+     
+
+}
+
+.radio-card {
+    display: flex;
+    flex: 1;
+    border: 2px solid rgb(133, 133, 255);
+    border-radius: 400px;
+    max-width: 90px;
+    background-color: lightblue;
+    cursor: pointer;
+
+}
+
+.field-group {
+    margin: auto;  
+    margin-block: 10px;
+    
+    
+
+}
+
+.field-group-quantity {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    border-radius: 20px;
+    gap: 10px;
+    margin-top: 15px;
+    
+    
+}
+.quantity-controls {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+
+
+.field-group .group-label {
+    display: flexbox;
+    border-radius:  10px;
+    gap: 30px;
+    
+    padding-block: 20px;
+
+}
+
+.field-group-quantity input {
+    display: flex;
+    border-radius: 400px;
+    gap: 30px;
+    border: 2px solid rgb(133, 133, 255);
+    background-color: lightblue;
+
+    
+}
+
+.bokabtn {
+    border: 2px solid rgb(133, 133, 255);
+    background-color: lightblue;
+    border-radius: 10px;
+   
+
+}
+
+.back-btn{
+     border: 2px solid rgb(133, 133, 255);
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+.quantity-controls {
+    
+
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    border-radius:  10px;
+    gap: 37px;
+    margin-top: 15px;
+
+}
+
+footer .info-text { 
+    display: block;
+    max-width: 450px;
+    
+    margin-top: 20px;
+    line-height: 1.5;
+}
